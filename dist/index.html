@@ -12,9 +12,9 @@
 
     <!--Navbar-->
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
            <div class="container">
-                <a href="#" class="navbar-brand">Borongan City Info</a>
+                <h3><a href="#" class="navbar-brand">Borongan City Info</a></h3>
 
               <!-- Burger Button in the left-->  
                 <button 
@@ -47,13 +47,60 @@
 
     <!--Showcase-->
     <main>
-        <section class="bg-dark text-light p-5 text-center">
-            <div>
-                <div>
+        <section class="bg-dark text-light p-5 text-center text-sm-start">
+            <div class="container">
+                <!-- To put the image brain to the right-->
+                <div class="d-sm-flex align-items-center justify-content-between">
+                    <!---->
                     <div>
-                        What's new in the city and updates?
+                        <h1>What's new in the 
+                            <span class="text-warning">City?</span></h1>
+                            <p class="leads my-4">Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                                Molestias assumenda expedita necessitatibus? Ducimus totam suscipit,
+                                accusamus?
+                            </p>
+                            <button class="btn btn-success btn-lg">Be inform Boronganons</button>
                     </div>
-                    <img src="img/pic1.png" alt="image1">
+                    <img class="img-fluid w-50 d-none d-sm-block" src="img/pic1.png" alt="">
+                </div>
+            </div>
+        </section>
+
+        <!-- Newsletter-->
+        <section class="bg-success text-light p-5">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 mb-md-0">
+                        Sign up for our Newsletter
+                    </h3>
+                    <div class="input-group news-input">
+
+                        <input 
+                        type="text" 
+                        class="form-control" 
+                        placeholder="Enter your email" 
+                        
+                        >
+                        <button 
+                        class="btn btn-dark btn-lg" 
+                        type="button" 
+                        >
+                        Submit
+                    </button>
+
+                      </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Boxes-->
+
+        <section class="p-5">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col">123</div>
+                    <div class="col">123</div>
+                    <div class="col">123</div>
                 </div>
             </div>
         </section>

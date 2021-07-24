@@ -1,5 +1,8 @@
 
 
-/* header .navbar {
-    background-color: #224220 !important;
-} */
+@media(min-width: 768px) {
+    section .news-input {
+        width: 50%;
+    }
+}
+
